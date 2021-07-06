@@ -65,7 +65,7 @@ $ sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
 $ sudo yum install mysql-server
 
 # Кoнфигуриране и стартиране на MySQL server
-chkconfig mysqld on
+$ chkconfig mysqld on
 $ systemctl start mysqld.service
 $ systemctl status mysqld.service
 
